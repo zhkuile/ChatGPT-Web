@@ -281,7 +281,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nickname`, `account`, `password`, `avatar`, `role`, `integral`, `vip_expire_time`, `svip_expire_time`, `status`, `ip`, `create_time`, `update_time`) VALUES
-(61833690208014336, '管理员', 'admin@ai.com', 'a66abb5684c45962d887564f08346e8d', ' ', 'administrator', 100, '2024-01-01', '2024-01-01', 1, '113.87.180.24', '2023-06-20 15:05:00', '2023-06-20 15:17:51');
+(61833690208014336, '管理员', 'zhkuile@gmail.com', '764df62171fa2ff033ac7a9680eed96d', ' ', 'administrator', 100, '2024-01-01', '2024-01-01', 1, '113.87.180.24', '2023-06-20 15:05:00', '2023-06-20 15:17:51');
 
 --
 -- 转储表的索引

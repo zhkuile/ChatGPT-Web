@@ -4,11 +4,11 @@ Object.defineProperty(exports, '__esModule', { value: true });
 // 获取配置信息的函数
 function getConfig(key) {
 	const config = {
-		port: 3200,  // 端口号，确保没有被占用
+		port: 8200,  // 端口号，确保没有被占用
 		mysql_config: {  // MySQL配置信息
 			dialect: 'mysql',
 			// MySQL 数据库主机地址，docker 部署使用 mysql，本机部署使用 127.0.0.1
-			//host: 'mysql',  
+			//host: 'mysql',
 			host: '127.0.0.1',
 			port: 3306,  // 数据库端口号，默认3306
 			username: 'chatgpt',  // 数据库用户名
