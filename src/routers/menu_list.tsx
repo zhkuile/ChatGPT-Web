@@ -33,12 +33,6 @@ const web = [
     name: '商城',
     icon: <ShopOutlined />,
     message: '账户余额和充值套餐记录'
-  },
-  {
-    path: 'https://github.com/vastxie/ChatGpt-Web',
-    name: '项目地址',
-    icon: <GithubOutlined />,
-    message: '免费开源可商业化AIWeb项目'
   }
 ]
 
@@ -136,11 +130,6 @@ const admin = {
       name: '通知配置',
       path: '/admin/notification',
       icon: <NotificationFilled />
-    },
-    {
-      path: 'https://github.com/vastxie/ChatGpt-Web',
-      name: 'Github',
-      icon: <GithubFilled />
     }
   ]
 }
